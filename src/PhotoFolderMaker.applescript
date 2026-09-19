@@ -77,6 +77,6 @@ on open droppedItems
 end open
 
 on run
-	display dialog "写真ファイルをこのアプリのアイコンにドラッグ＆ドロップすると、デスクトップに写真が合成されたフォルダアイコンの新規フォルダを作成します。" buttons {"OK"} default button "OK"
+	display dialog "写真ファイルをこのアプリのアイコンにドラッグ＆ドロップすると、指定した場所に、写真が合成されたフォルダアイコンの新規フォルダを作成します。" & return & return & "ドロップしたあとに保存先を選ぶダイアログが表示されます。" buttons {"OK"} default button "OK"
 end run
 
